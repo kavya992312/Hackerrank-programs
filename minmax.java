@@ -8,14 +8,17 @@ public class minmax {
             long temp,sum = 0 ;
             long max = 0;
             long min = 0;
+        //sorting array
             Arrays.sort(arr);
+        //finding  total sum 
             for (int j = 0; j < 5; j++)
                 sum += arr[j];
             temp = sum;
-            //max
+            //finding max by subtracting lowest number
             max = temp-arr[0];
-            //min
+            //finding max by subtracting highest number
             min = temp-arr[4];
+        //printing output
             System.out.println(min+" "+max);
 
     }
