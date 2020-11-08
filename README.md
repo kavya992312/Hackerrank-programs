@@ -1,2 +1,2 @@
-# Hackerrank
- everyday programs
+# Hackerrank Programs
+ 30 days programs
